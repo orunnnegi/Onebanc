@@ -95,15 +95,16 @@ CardName
 Transaction
 
 Location (in lowercase)
+---
+## Troubleshooting
 
-Troubleshooting
-File Not Found
+### File Not Found
 Make sure the CSV file exists in the correct directory or provide the full path when prompted.
 
-CSV Format Issues
+### CSV Format Issues
 The CSV should have headers and a consistent format. The script expects columns for amount, debit, and credit to be present.
 
-Invalid Data
+### Invalid Data
 Ensure that numeric values in the debit/credit columns are correctly formatted. Improperly formatted data may cause errors or lead to rows being skipped.
 
 
